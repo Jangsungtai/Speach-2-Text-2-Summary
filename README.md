@@ -2,7 +2,7 @@
 여러가지 AI를 복합적으로 사용해서 Transcript와 summary를 해주는 기능 모듈 입니다. 
 
 
-# 1. 목적 : Speach to text to summarize
+## 1. 목적 : Speach to text to summarize
   1) Speach to Text : OpenAI의 Whisper 
        -in : Youtube 주소 
        -out : Text 파일 
@@ -20,13 +20,13 @@
         2) BART-large: 모델 크기 (1,620 MB), 파라미터 수 (약 406M), 최대 토큰 (1024) 
         3) LED: 모델 크기 (640 MB), 파라미터 수 (약 162M), 최대 토큰 (16384)
        
-# 2. Configure
+## 2. Configure
 
 pip install -r requirements.txt
 install ffmpeg ## 인데 이건좀 알아서 설치해야할 듯
 
 
-# 3. 원본 코드 
+## 3. 원본 코드 
  1) Teaching2text
   (modified from video2text, https://video2text.de by Johannes Hayer https://jhayer.tech)
   To convert a video containing a mix of English teaching and Korean interpretation into text
@@ -34,7 +34,7 @@ install ffmpeg ## 인데 이건좀 알아서 설치해야할 듯
  2) Text2Summary
    huggingface 라이브러리 사용
 
-# 5. how to use 
+## 5. 사용법
 0. clone the repo with `git clone`
 1. pip3 install -r requirements.txt
 2. python teaching2text.py
@@ -42,7 +42,7 @@ install ffmpeg ## 인데 이건좀 알아서 설치해야할 듯
 #youtube sample : https://www.youtube.com/watch?v=1aA1WGON49E
 
 
-## Version History
+### Version History
 
 - 0.1.0 (4/08/2024)
   - Initial Release (video2text 0.2 + modified utils)
@@ -63,16 +63,16 @@ install ffmpeg ## 인데 이건좀 알아서 설치해야할 듯
 - -.3.0
     1. 0.3.0 : GPT2, Bart large, LED 모델 선택 버튼 추가 
 
-## License
+### License
 
 This project is licensed under the MIT license
 
-## Acknowledgments
+### Acknowledgments
 OpenAI Whisper\* [here](https://github.com/openai/whisper)
 Video2text \* [here](https://github.com/XamHans/video-2-text.git)
 Hugging face \* [here](https://huggingface.co/facebook/bart-large-cnn)
 
 
-## Summary Performance Tests 
+### Summary Performance Tests 
 ![alt text](image.png)
 
