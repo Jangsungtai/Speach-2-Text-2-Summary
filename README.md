@@ -5,22 +5,39 @@
 
 
 ## 1. 목적 : Speach to text to summarize
+
   1) Speach to Text : OpenAI의 Whisper
-       -in : Youtube 주소 
-       -out : Text 파일 
-       -출력포맷 : 언어(en,kr) : 시간(hh:mm:ss) : 텍스트  
+     
+       -in : Youtube 주소
+     
+       -out : Text 파일
+     
+       -출력포맷 : 언어(en,kr) : 시간(hh:mm:ss) : 텍스트
+     
       -Parameters :
-        (1) Youtube 주소 
-        (2) 모델 : Tiny, Base, Small, Medium, Large 
+     
+        (1) Youtube 주소
+     
+        (2) 모델 : Tiny, Base, Small, Medium, Large
+     
         (3) 모드 : Normal, English
+     
   3) Text to summarize
+     
        -in : text file
+     
        -out : summary of text
+     
        -출력포맷 : 언어(en) , 300토큰 이내
+     
       -Parameters : 모델
+     
         1) GPT-2: 모델 크기 (1,380 MB), 파라미터 수 (약 345M), 최대 토큰 (1024)
+           
         2) BART-large: 모델 크기 (1,620 MB), 파라미터 수 (약 406M), 최대 토큰 (1024)
+           
         3) LED: 모델 크기 (640 MB), 파라미터 수 (약 162M), 최대 토큰 (16384)
+
            
 
 
