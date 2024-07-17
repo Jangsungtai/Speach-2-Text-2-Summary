@@ -19,14 +19,9 @@
         1) GPT-2: 모델 크기 (1,380 MB), 파라미터 수 (약 345M), 최대 토큰 (1024) 
         2) BART-large: 모델 크기 (1,620 MB), 파라미터 수 (약 406M), 최대 토큰 (1024) 
         3) LED: 모델 크기 (640 MB), 파라미터 수 (약 162M), 최대 토큰 (16384)
-       
-## 2. Configure
-
-pip install -r requirements.txt
-install ffmpeg ## 인데 이건좀 알아서 설치해야할 듯
 
 
-## 3. 원본 코드 
+## 2. 원본 코드 
  1) Teaching2text
   (modified from video2text, https://video2text.de by Johannes Hayer https://jhayer.tech)
   To convert a video containing a mix of English teaching and Korean interpretation into text
@@ -34,10 +29,12 @@ install ffmpeg ## 인데 이건좀 알아서 설치해야할 듯
  2) Text2Summary
    huggingface 라이브러리 사용
 
-## 5. 사용법
+## 3. 사용법
 0. clone the repo with `git clone`
 1. pip3 install -r requirements.txt
-2. python teaching2text.py
+2. install ffmpeg 
+<이건좀 알아서 설치해야 함... 설치 안되는경우가 종종 있음.>
+3. python teaching2text.py
 
 #youtube sample : https://www.youtube.com/watch?v=1aA1WGON49E
 
