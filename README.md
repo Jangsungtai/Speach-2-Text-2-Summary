@@ -2,7 +2,7 @@
 여러가지 AI를 복합적으로 사용해서 Transcript와 summary를 해주는 기능 모듈 입니다. 
 
 
-## 1. 목적 : Speach to text to summarize
+### 1. 목적 : Speach to text to summarize
 
   1) Speach to Text : OpenAI의 Whisper
      
@@ -39,7 +39,7 @@
            
 
 
-## 2. 원본 코드 
+### 2. 원본 코드 
  1) Teaching2text
   (modified from video2text, https://video2text.de by Johannes Hayer https://jhayer.tech)
   To convert a video containing a mix of English teaching and Korean interpretation into text
@@ -47,7 +47,7 @@
  2) Text2Summary
    huggingface 라이브러리 사용
 
-## 3. 사용법
+### 3. 사용법
 0. clone the repo with `git clone`
 1. pip3 install -r requirements.txt
 2. install ffmpeg 
